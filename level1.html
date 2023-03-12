@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1 js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <section id="sec">
+        <button onclick="show_sec()">show avarge</button>
+        <button onclick="hide_sec()">Hide avarge</button>
+        <button onclick="show_nav()">show side nav</button>
+        <p id="result"></p>
+        <div class="all">
+        <div id="form_div">
+            <p class="contact">Contact us</p>
+                <p id="error"></p>
+                <form  onsubmit="return formvaldate()" action="Facebook.html">
+                    <input id="username" type="text" placeholder="username">
+                    <input id="email_login" type="text" placeholder="Email address or phone number">
+                    <input id="phone_login" type="text" placeholder="phone">
+                    <button type="submit">Log in</button>
+                    <hr>
+                </form>
+        </div>
+    </div>
+    </section>
+    <nav id="side_nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
